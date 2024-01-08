@@ -1,0 +1,7 @@
+paketi_himikali=int(input())
+paketi_markeri=int(input())
+litri_plreparad=int(input())
+procent_namalenie=int(input())
+suma= (paketi_markeri*7.20+paketi_himikali*5.80+litri_plreparad*1.20)
+cena_namelenie=suma-(suma*procent_namalenie/100)
+print(round(cena_namelenie,1))
